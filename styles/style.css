@@ -5,11 +5,17 @@ body{
 
 .profile-pic{
     border-radius: 100%;
+    display: flex;
 }
 
 .user-reviews{
     display:flex;
     flex-direction: row;
+    flex-shrink: 3;
+}
+
+.reviews{
+    display: flex;
 }
 
 nav a,
