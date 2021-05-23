@@ -17,6 +17,13 @@ body{
 .reviews{
     display: flex;
 }
+/*Potensielt slette dette*/
+@media only screen and (max-width: 400px) {
+    .reviews {
+      display: flex;
+      flex-direction: column;
+    }
+  }
 
 nav a,
 nav,
