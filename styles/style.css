@@ -30,15 +30,9 @@ footer{
 
 /*home*/
 
-.welcome{
-    background-image: url(../images/GameHub_Logo_small.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: bottom;
-    height:400pt;
-    position: relative;
-
+.welcome img{
+    width: 100%;
+    max-height: 100vh;
 }
 
 .profile-pic{
