@@ -11,6 +11,12 @@ nav li{
     display:inline;
     color: white;
     text-decoration: none;
+    padding: 5px;
+}
+
+header{
+    background-color: black;
+    display: flex;
 }
 
 .current{
@@ -23,6 +29,17 @@ footer{
 
 
 /*home*/
+
+.welcome{
+    background-image: url(../images/GameHub_Logo_small.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    min-height: 100vh;
+    position: relative;
+
+}
 
 .profile-pic{
     border-radius: 50%;
