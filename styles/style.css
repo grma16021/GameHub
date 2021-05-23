@@ -4,27 +4,36 @@ body{
 }
 
 .profile-pic{
-    border-radius: 100%;
-    display: flex;
+    border-radius: 50%;
+    flex-direction: column;
 }
 
 .user-reviews{
-    display:flex;
-    flex-direction: row;
-    flex-shrink: 3;
+   padding: 10%;
+   margin: 5%;
+   
 }
 
 .reviews{
     display: flex;
+    background-color: #30336B;
+    
 }
-/*Potensielt slette dette*/
-@media only screen and (max-width: 400px) {
-    .reviews {
-      display: flex;
-      flex-direction: column;
-    }
-  }
 
+.review-name{
+   display: block;
+}
+
+.featured-prod{
+    display: inline-block;
+    padding: 1%;
+}
+
+.featured-text{
+    text-align: center;
+}
+
+a,
 nav a,
 nav,
 nav li{
@@ -64,3 +73,11 @@ footer{
     background-color:  white;
     color: black;
 }
+
+/*Styling for smaller screens*/
+@media only screen and (max-width: 400px) {
+    .reviews {
+      display: flex;
+      flex-direction: column;
+    }
+  }
