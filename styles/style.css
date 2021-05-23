@@ -1,0 +1,53 @@
+body{
+    background-color: #130F40;
+    color:white
+}
+
+.profile-pic{
+    border-radius: 100%;
+}
+
+.user-reviews{
+    display:flex;
+    flex-direction: row;
+}
+
+nav a,
+nav,
+nav li{
+    display:inline;
+    color: white;
+    text-decoration: none;
+}
+
+.current{
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+}
+
+.register-btn{
+    background-color: #686DE0;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5%;
+    transition-duration: 0,6s;
+
+}
+
+.center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.register-btn:hover{
+    background-color:  white;
+    color: black;
+}
