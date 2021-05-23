@@ -36,7 +36,7 @@ footer{
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: bottom;
-    min-height: 100vh;
+    height:400pt;
     position: relative;
 
 }
@@ -47,9 +47,8 @@ footer{
 }
 
 .user-reviews{
-   padding: 10%;
-   margin: 5%;
-   
+    margin: 2%;
+   padding-left: 15%;
 }
 
 .reviews{
@@ -93,6 +92,18 @@ footer{
 .register-btn:hover{
     background-color:  white;
     color: black;
+}
+
+.featured-search{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 20px;
+    
+}
+
+.featured-search input[type=text]{
+    font-size: 18px;
+    border: none;
 }
 
 /*Styling for smaller screens*/
