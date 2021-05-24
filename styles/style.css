@@ -1,6 +1,9 @@
 body{
     background-color: #130F40;
-    color:white
+    color:white;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -13,6 +16,15 @@ nav li{
     text-decoration: none;
     padding: 5px;
 }
+
+nav a:hover{
+    background-color: white;
+    color: black;
+}
+
+.log-in{
+    padding-left: 800px;
+}   
 
 header{
     background-color: black;
@@ -58,8 +70,8 @@ body p{
 }
 
 .user-reviews{
-    margin: 2%;
-   padding-left: 15%;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 .reviews{
